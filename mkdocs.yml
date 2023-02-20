@@ -41,3 +41,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - admonition
+extra:
+  social:
+    - icon: material/web
+      link: https://iosclub.tw
