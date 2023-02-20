@@ -1,0 +1,13 @@
+site_name: iOS Club
+site_url: https://tutorial.iosclub.tw
+nav:
+  - Home: index.md
+theme:
+  name: material
+  language: zh-tw
+  palette:
+    primary: light blue
+  icon:
+    logo: 
+      material/apple-ios
+
