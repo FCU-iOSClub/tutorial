@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# 歡迎來到 iOS Club 社團的教學網頁
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+我們致力於推廣程式教育，為所有年齡層提供高品質的程式設計教學，主要以 Swift 程式語言為主軸，無論您是完全沒有程式設計經驗的新手，還是有一定經驗的開發者，我們的教學內容都能夠為您提供所需的知識和技能。
 
-## Commands
+如果您是新手，我們提供了完整的 Swift 基礎語法和基礎程式設計邏輯的部分，讓您可以從頭開始學習。或是如果您已經有一定的經驗，我們的進階課程可以讓您更深入地了解 Swift 語言和 iOS 應用程式開發。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+在我們的基礎課程中，您將學習到 Swift 的基礎語法，包括變數、資料型別、條件語句、迴圈、函式、陣列、字典等等。這些基礎語法是您在開發 iOS 應用程式時必不可少的基礎。
 
-## Project layout
+此外，我們也會介紹基礎的程式設計邏輯，例如流程控制、邏輯運算、資料結構、算法等等。這些知識將幫助您更好地理解和應用 Swift 語言，並讓您開發出更有效率、更可靠的程式。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+在 iOS Club，我們的教學內容非常豐富，包含了理論和實務應用，您將學習到如何實現 iOS 應用程式中常見的功能，例如使用者註冊、登入、網路存取、資料庫存取、地圖應用、多媒體處理等等。
+
+最重要的是，我們的教學網頁不僅僅提供了理論知識，我們也提供了大量的範例程式碼和實際的應用場景，讓您能夠更快速地學習和掌握所學技能。我們也提供了一些簡單易懂的練習題目和挑戰，讓您能夠練習所學知識，並且提升您的程式設計技能。
+
+我們相信，學習程式設計不僅僅是一個學科，更是一種思維方式。通過學習程式設計，您可以獲得解決問題的能力、創造力和創新思維，而我們的目標就是通過提供高品質的教學內容和實踐機會，幫助大家逐步掌握這些能力和思維方式。
+
+如果您想成為一個 iOS 應用程式開發者，或者想在程式設計領域發展，iOS Club 是您學習的最佳選擇。讓我們一起開始這個有趣的學習之旅吧！
+
+## Swift Playgrounds
+
+此外，為了讓學習更加生動有趣，我們也將使用 Apple Swift Playgrounds 進行程式設計學習。Swift Playgrounds 是一款由 Apple 公司開發的 App，專為初學者設計，可以在 iPad 和 Mac 上運行。它提供了一個友好的界面，以及豐富的編程挑戰和互動式學習內容，可以幫助學習者更輕鬆地學習 Swift 編程。
+
+在我們的課程中，我們將使用 「學習程式設計 1」 和 「學習程式設計 2」 兩本書籍作為教材。「學習程式設計 1」 包含了 Swift 編程的基礎知識，以及使用 Swift Playgrounds 的相關操作；「學習程式設計 2」 則進一步介紹了更高級的 Swift 開發技巧，以及 iOS Swift UI 的開發方法，內容豐富，易於理解，是您學習 Swift 編程和 iOS 應用程式開發的最佳選擇。

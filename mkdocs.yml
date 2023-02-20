@@ -2,12 +2,22 @@ site_name: iOS Club
 site_url: https://tutorial.iosclub.tw
 nav:
   - Home: index.md
+  - 開始學習程式設計: Swift-Learning-1/index.md
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+
+
   language: zh-tw
+  font:
+    text: "Noto Serif TC"
+    code: "JetBrains Mono"
   palette:
     primary: light blue
   icon:
-    logo: 
-      material/apple-ios
-
+    logo: material/apple-ios
+copyright: Copyright &copy; 2016 - 2023 FengChia University iOS Club
