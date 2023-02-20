@@ -16,6 +16,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.expand
 
 
   language: zh-TW
