@@ -2,7 +2,12 @@ site_name: iOS Club
 site_url: https://tutorial.iosclub.tw
 nav:
   - Home: index.md
-  - 開始學習程式設計: Swift-Learning-1/index.md
+  - 開始學習程式設計: 
+    - swift-learning/index.md
+    - 指令: 
+      - swift-learning/command/index.md
+      - 發出指令: swift-learning/command/1. issuing-commands.md
+
 theme:
   name: material
   features:
@@ -10,6 +15,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.footer
+    - navigation.indexes
 
 
   language: zh-TW
@@ -21,3 +27,14 @@ theme:
   icon:
     logo: material/apple-ios
 copyright: Copyright &copy; 2016 - 2023 FengChia University iOS Club
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.superfences
