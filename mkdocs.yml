@@ -12,7 +12,7 @@ theme:
     - navigation.footer
 
 
-  language: zh-tw
+  language: zh-TW
   font:
     text: "Noto Serif TC"
     code: "JetBrains Mono"
