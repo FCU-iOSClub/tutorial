@@ -15,6 +15,11 @@ nav:
           - 尋找並修正程式錯誤: swift-learning/1-commands/5-finding-and-fixing-bugs.md
           - 除錯練習: swift-learning/1-commands/6-bug-squash-practice.md
           - 最短路線: swift-learning/1-commands/7-the-shortest-route.md
+      - 函數:
+          - swift-learning/2-functions/index.md
+          - 組合新的動作: swift-learning/2-functions/1-composing-a-new-behavior.md
+          - 建立新函數: swift-learning/2-functions/2-creating-a-new-function.md
+          - 收集、切換、重複: swift-learning/2-functions/3-collect-toggle-repeat.md
 
 theme:
   name: material
