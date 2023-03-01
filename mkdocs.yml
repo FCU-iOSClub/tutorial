@@ -7,14 +7,14 @@ nav:
   - 開始學習程式設計:
       - swift-learning/index.md
       - 指令:
-          - swift-learning/1-command/index.md
-          - 發出指令: swift-learning/1-command/1-issuing-commands.md
-          - 加入新指令: swift-learning/1-command/2-adding-a-new-command.md
-          - 切換開關: swift-learning/1-command/3-toggling-a-switch.md
-          - 傳送門練習: swift-learning/1-command/4-portal-practice.md
-          - 尋找並修正程式錯誤: swift-learning/1-command/5-finding-and-fixing-bugs.md
-          - 除錯練習: swift-learning/1-command/6-bug-squash-practice.md
-          - 最短路線: swift-learning/1-command/7-the-shortest-route.md
+          - swift-learning/1-commands/index.md
+          - 發出指令: swift-learning/1-commands/1-issuing-commands.md
+          - 加入新指令: swift-learning/1-commands/2-adding-a-new-command.md
+          - 切換開關: swift-learning/1-commands/3-toggling-a-switch.md
+          - 傳送門練習: swift-learning/1-commands/4-portal-practice.md
+          - 尋找並修正程式錯誤: swift-learning/1-commands/5-finding-and-fixing-bugs.md
+          - 除錯練習: swift-learning/1-commands/6-bug-squash-practice.md
+          - 最短路線: swift-learning/1-commands/7-the-shortest-route.md
 
 theme:
   name: material
