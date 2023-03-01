@@ -16,9 +16,7 @@
 
 ## 解答
 
-<!-- prettier-ignore -->
-!!! danger "請務必嘗試解題"
-    請同學務必嘗試自己解題，不要直接看答案。學習程式時最好的學習方法是自己嘗試解題，程式設計不會只有一種寫法，請通過不斷的嘗試和優化來找到屬於自己最好的解答。
+--8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
 moveForward()
