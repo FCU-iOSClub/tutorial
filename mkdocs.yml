@@ -20,6 +20,10 @@ nav:
           - 組合新的動作: swift-learning/2-functions/1-composing-a-new-behavior.md
           - 建立新函數: swift-learning/2-functions/2-creating-a-new-function.md
           - 收集、切換、重複: swift-learning/2-functions/3-collect-toggle-repeat.md
+          - 全面而徹底: swift-learning/2-functions/4-across-the-board.md
+          - 嵌套模式: swift-learning/2-functions/5-nesting-patterns.md
+          - 嵌入式階梯: swift-learning/2-functions/6-slotted-stairways.md
+          - 尋寶: swift-learning/2-functions/7-treasure-hunt.md
 
 theme:
   name: material
@@ -52,6 +56,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
