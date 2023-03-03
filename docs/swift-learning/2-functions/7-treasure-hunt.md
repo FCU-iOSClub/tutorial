@@ -6,6 +6,8 @@
 
 在這最後一項挑戰中，先找出一個小的指令模式，並且建立一個函數來呼叫這些指令。使用該函數來開始通過部分關卡。
 
+範例：
+
 ```swift
 func moveThenToggle(){
     moveForward()
