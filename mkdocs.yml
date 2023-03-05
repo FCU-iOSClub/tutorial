@@ -24,6 +24,15 @@ nav:
           - 嵌套模式: swift-learning/2-functions/5-nesting-patterns.md
           - 嵌入式階梯: swift-learning/2-functions/6-slotted-stairways.md
           - 尋寶: swift-learning/2-functions/7-treasure-hunt.md
+      - For 迴圈:
+          - swift-learning/3-for/index.md
+          - 使用迴圈: swift-learning/3-for/1-using-loops.md
+          - 迴圈每一側: swift-learning/3-for/2-looping-all-the-sides.md
+          - 走到邊緣再返回: swift-learning/3-for/3-to-the-edge-and-back.md
+          - 迴圈跳躍者: swift-learning/3-for/4-loop-jumper.md
+          - 拓展技能: swfit-learning/3-for/5-branch-out.md
+          - 寶石農場: swift-learning/3-for/6-gem-farm.md
+          - 橫掃四方: swift-learning/3-for/7-four-stash-sweep.md
 
 theme:
   name: material
@@ -40,7 +49,17 @@ theme:
     text: "Noto Serif TC"
     code: "JetBrains Mono"
   palette:
-    primary: cyan
+
+   - scheme: default
+     primary: cyan
+     toggle:
+       icon: material/brightness-7
+       name: Switch to dark mode
+   - scheme: slate
+     primary: blue grey
+     toggle:
+       icon: material/brightness-4
+       name: Switch to system preference
   icon:
     logo: material/apple-ios
 
