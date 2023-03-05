@@ -40,7 +40,7 @@ theme:
     text: "Noto Serif TC"
     code: "JetBrains Mono"
   palette:
-    primary: light blue
+    primary: cyan
   icon:
     logo: material/apple-ios
 
