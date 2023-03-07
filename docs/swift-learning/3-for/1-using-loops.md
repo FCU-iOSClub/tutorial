@@ -1,16 +1,22 @@
 # 使用迴圈
 
-TODO:TODO
+目標：使用一個 for 迴圈來重複指令序列。
 
 ## 簡介
 
-TODO
+為了分解程式設計任務，你先前編寫了用於重複模式的函數。現在你將使用迥圈來多次呼叫一個函數。在一個迴圈中，你寫一次程式碼，並輸入要程式碼重複的次數。
 
-![img](https://unsplash.com/photos/NodtnCsLdTE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTd8fGNhdHxlbnwwfHx8fDE2Nzc5OTU0MDg&force=true&w=1920)
+在這個關卡，每一排的相同位置上都有一顆寶石。你將多次依循相同的模式來收集賣石。這是最適合使用迥圈的地方！
+
+1. 在大括號中輸入其中一排的解決方法。
+2. 決定迴圈重複的次數。
+3. 選取數字的預留位置並指定重複的次數。
+
+![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/4bf2b785-2deb-4f0f-5c43-126b9ac29100/public)
 
 ## 講解
 
-TODO
+很棒！現在你已經開始挑戰 for 迴圈的第一個關卡了。不用擔心，這是一個非常簡單的關卡，你一定可以通過這個關卡來熟悉 for 迴圈的基本使用方式。
 
 ## 解答
 
@@ -27,4 +33,4 @@ for i in 1…5 {
 
 ## 後記
 
-TODO
+恭喜你完成了 for 迴圈的第一個關卡！通過這個簡單的任務，你已經踏出了學習 for 迴圈的第一步。現在，請你繼續挑戰，還有更多有趣且有挑戰性的任務等著你去解決！
