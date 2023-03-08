@@ -4,35 +4,69 @@ site_url: https://tutorial.iosclub.tw
 
 nav:
   - Home: index.md
-  - 開始學習程式設計:
-      - swift-learning/index.md
+  - 學習程式設計 1:
+      - swift-learning-1/index.md
       - 指令:
-          - swift-learning/1-commands/index.md
-          - 發出指令: swift-learning/1-commands/1-issuing-commands.md
-          - 加入新指令: swift-learning/1-commands/2-adding-a-new-command.md
-          - 切換開關: swift-learning/1-commands/3-toggling-a-switch.md
-          - 傳送門練習: swift-learning/1-commands/4-portal-practice.md
-          - 尋找並修正程式錯誤: swift-learning/1-commands/5-finding-and-fixing-bugs.md
-          - 除錯練習: swift-learning/1-commands/6-bug-squash-practice.md
-          - 最短路線: swift-learning/1-commands/7-the-shortest-route.md
+          - swift-learning-1/1-commands/index.md
+          - 發出指令: swift-learning-1/1-commands/1-issuing-commands.md
+          - 加入新指令: swift-learning-1/1-commands/2-adding-a-new-command.md
+          - 切換開關: swift-learning-1/1-commands/3-toggling-a-switch.md
+          - 傳送門練習: swift-learning-1/1-commands/4-portal-practice.md
+          - 尋找並修正程式錯誤: swift-learning-1/1-commands/5-finding-and-fixing-bugs.md
+          - 除錯練習: swift-learning-1/1-commands/6-bug-squash-practice.md
+          - 最短路線: swift-learning-1/1-commands/7-the-shortest-route.md
       - 函數:
-          - swift-learning/2-functions/index.md
-          - 組合新的動作: swift-learning/2-functions/1-composing-a-new-behavior.md
-          - 建立新函數: swift-learning/2-functions/2-creating-a-new-function.md
-          - 收集、切換、重複: swift-learning/2-functions/3-collect-toggle-repeat.md
-          - 全面而徹底: swift-learning/2-functions/4-across-the-board.md
-          - 嵌套模式: swift-learning/2-functions/5-nesting-patterns.md
-          - 嵌入式階梯: swift-learning/2-functions/6-slotted-stairways.md
-          - 尋寶: swift-learning/2-functions/7-treasure-hunt.md
+          - swift-learning-1/2-functions/index.md
+          - 組合新的動作: swift-learning-1/2-functions/1-composing-a-new-behavior.md
+          - 建立新函數: swift-learning-1/2-functions/2-creating-a-new-function.md
+          - 收集、切換、重複: swift-learning-1/2-functions/3-collect-toggle-repeat.md
+          - 全面而徹底: swift-learning-1/2-functions/4-across-the-board.md
+          - 嵌套模式: swift-learning-1/2-functions/5-nesting-patterns.md
+          - 嵌入式階梯: swift-learning-1/2-functions/6-slotted-stairways.md
+          - 尋寶: swift-learning-1/2-functions/7-treasure-hunt.md
       - For 迴圈:
-          - swift-learning/3-for/index.md
-          - 使用迴圈: swift-learning/3-for/1-using-loops.md
-          - 迴圈每一側: swift-learning/3-for/2-looping-all-the-sides.md
-          - 走到邊緣再返回: swift-learning/3-for/3-to-the-edge-and-back.md
-          - 迴圈跳躍者: swift-learning/3-for/4-loop-jumper.md
-          - 拓展技能: swfit-learning/3-for/5-branch-out.md
-          - 寶石農場: swift-learning/3-for/6-gem-farm.md
-          - 橫掃四方: swift-learning/3-for/7-four-stash-sweep.md
+          - swift-learning-1/3-for/index.md
+          - 使用迴圈: swift-learning-1/3-for/1-using-loops.md
+          - 迴圈每一側: swift-learning-1/3-for/2-looping-all-the-sides.md
+          - 走到邊緣再返回: swift-learning-1/3-for/3-to-the-edge-and-back.md
+          - 迴圈跳躍者: swift-learning-1/3-for/4-loop-jumper.md
+          - 拓展技能: swift-learning-1/3-for/5-branch-out.md
+          - 寶石農場: swift-learning-1/3-for/6-gem-farm.md
+          - 橫掃四方: swift-learning-1/3-for/7-four-stash-sweep.md
+      - 條件碼:
+          - swift-learning-1/4-conditional-code/index.md
+          - 檢查開關: swift-learning-1/4-conditional-code/1-checking-for-switches.md
+          - 使用 else if: swift-learning-1/4-conditional-code/2-using-else-if.md
+          - 迴圈條件碼: swift-learning-1/4-conditional-code/3-looping-conditional-code.md
+          - 符合條件時往上爬: swift-learning-1/4-conditional-code/4-conditional-climb.md
+          - 定義更聰明的函數: swift-learning-1/4-conditional-code/5-defining-smarter-functions.md
+          - 困在裡面: swift-learning-1/4-conditional-code/6-boxed-in.md
+          - 決定樹: swift-learning-1/4-conditional-code/7-decision-tree.md
+      - 邏輯運算子:
+          - swift-learning-1/5-logical-operators/index.md
+          - 使用 NOT 運算子: swift-learning-1/5-logical-operators/1-using-the-not-operator.md
+          - NOT 螺旋: swift-learning-1/5-logical-operators/2-spiral-of-not.md
+          - 檢查這個 AND 那個: swift-learning-1/5-logical-operators/3-checking-this-and-that.md
+          - 檢查這個 OR 那個: swift-learning-1/5-logical-operators/4-checking-this-or-that.md
+          - 邏輯迷宮: swift-learning-1/5-logical-operators/5-logical-labyrinth.md
+      - While 迴圈:
+          - swift-learning-1/6-while-loop/index.md
+          - 當...時執行程式碼: swift-learning-1/6-while-loop/1-running-code-while.md
+          - 建立更聰明的 While 迴圈: swift-learning-1/6-while-loop/2-creating-smarter-while-loops.md
+          - 選擇正確的工具: swift-learning-1/6-while-loop/3-choosing-the-correct-tool.md
+          - 4 乘 4: swift-learning-1/6-while-loop/4-four-by-four.md
+          - 轉身: swift-learning-1/6-while-loop/5-turned-around.md
+          - 富饒之地: swift-learning-1/6-while-loop/6-land-of-bounty.md
+          - 嵌套迴圈: swift-learning-1/6-while-loop/7-nesting-loops.md
+          - 隨機矩形: swift-learning-1/6-while-loop/8-random-rectangles.md
+          - 每次都右轉: swift-learning-1/6-while-loop/9-youre-always-right.md
+      - 演算法:
+          - swift-learning-1/7-algorithms/index.md
+          - 右手規則: swift-learning-1/7-algorithms/1-the-right-hand-rule.md
+          - 調整你的演算法: swift-learning-1/7-algorithms/2-adjusting-your-algorithm.md
+          - 征服迷宮: swift-learning-1/7-algorithms/3-conquering-a-maze.md
+          - 左轉還是右轉？: swift-learning-1/7-algorithms/4-which-way-to-turn.md
+          - 向左走，向右走: swift-learning-1/7-algorithms/5-roll-right-roll-left.md
 
 theme:
   name: material
