@@ -6,7 +6,7 @@ TODO:TODO
 
 TODO
 
-![img](https://ppt.cc/fddEQx)
+![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/4d757c53-d4a7-4fb3-3a86-9ae1f21d4500/public)
 
 ## 講解
 
