@@ -67,6 +67,65 @@ nav:
           - 征服迷宮: swift-learning-1/7-algorithms/3-conquering-a-maze.md
           - 左轉還是右轉？: swift-learning-1/7-algorithms/4-which-way-to-turn.md
           - 向左走，向右走: swift-learning-1/7-algorithms/5-roll-right-roll-left.md
+  - 學習程式設計 2:
+      - swift-learning-2/index.md
+      - 變數:
+          - swift-learning-2/1-variables/index.md
+          - 持續追蹤: swift-learning-2/1-variables/1-keeping-tracks.md
+          - 加大數值: swift-learning-2/1-variables/2-bump-up-the-value.md
+          - 遞增數值: swift-learning-2/1-variables/3-incrementing-the-value.md
+          - 尋找七顆寶石: swift-learning-2/1-variables/4-seeking-seven-gems.md
+          - 三顆寶石，四個開關: swift-learning-2/1-variables/5-three-gems-four-switches.md
+          - 檢查相等值: swift-learning-2/1-variables/6-checking-for-equal-values.md
+          - 計算開關數量: swift-learning-2/1-variables/7-round-up-the-switches.md
+          - 收集總數: swift-learning-2/1-variables/8-collect-the-total.md
+      - 類型:
+          - swift-learning-2/2-types/index.md
+          - 關閉傳送門: swift-learning-2/2-types/1-deactivating-a-portal.md
+          - 開啟和關閉傳送門: swift-learning-2/2-types/2-portal-on-and-off.md
+          - 開啟和關閉正確的傳送門: swift-learning-2/2-types/3-setting-the-right-portal.md
+          - 世界的角落: swift-learning-2/2-types/4-corners-of-the-world.md
+          - 遍布隨機的寶石: swift-learning-2/2-types/5-random-gems-everywhere.md
+      - 初始化:
+          - swift-learning-2/3-initialization/index.md
+          - 初始化你的專家: swift-learning-2/3-initialization/1-initializing-your-expert.md
+          - 訓練你的專家: swift-learning-2/3-initialization/2-train-your-expert.md
+          - 使用不同類型的實例: swift-learning-2/3-initialization/3-using-instances-of-different-types.md
+          - 需要兩人合作: swift-learning-2/3-initialization/4-it-takes-two.md
+      - 參數:
+          - swift-learning-2/4-parameters/index.md
+          - 繼續前行: swift-learning-2/4-parameters/1-moving-further-forward.md
+          - 歸納函數: swift-learning-2/4-parameters/2-generalizing-a-function-parameters.md
+          - 上下轉動: swift-learning-2/4-parameters/3-crack-up-and-down.md
+          - 置於特定位置: swift-learning-2/4-parameters/4-placing-at-a-specific-location.md
+          - 渡過河流: swift-learning-2/4-parameters/5-rivers-to-cross.md
+          - 放置兩個角色: swift-learning-2/4-parameters/6-placing-two-characters.md
+          - 兩個專家: swift-learning-2/4-parameters/7-two-experts.md
+          - 雙峰: swift-learning-2/4-parameters/8-twin-peaks.md
+      - 構建世界:
+          - swift-learning-2/5-world-building/index.md
+          - 結合世界: swift-learning-2/5-world-building/1-uniting-worlds.md
+          - 連接並解決: swift-learning-2/5-world-building/2-connect-and-solve.md
+          - 製作你自己的傳送門: swift-learning-2/5-world-building/3-making-your-own-portals.md
+          - 到達階梯: swift-learning-2/5-world-building/4-reach-for-the-stairs.md
+          - 浮動的島嶼: swift-learning-2/5-world-building/5-floating-islands.md
+          - 建立迴圈: swift-learning-2/5-world-building/6-build-a-loop.md
+          - 你自己的關卡: swift-learning-2/5-world-building/7-a-puzzle-of-your-own.md
+      - 陣列:
+          - swift-learning-2/6-arrays/index.md
+          - 儲存資訊: swift-learning-2/6-arrays/1-storing-information.md
+          - 探索反覆運算: swift-learning-2/6-arrays/2-iteration-exploration.md
+          - 堆疊磚塊: swift-learning-2/6-arrays/3-stacking-blocks.md
+          - 依序排列: swift-learning-2/6-arrays/4-getting-in-order.md
+          - 附加到陣列: swift-learning-2/6-arrays/5-appending-to-an-array.md
+          - 島嶼建構者: swift-learning-2/6-arrays/6-island-builder.md
+          - 附加到移除的值: swift-learning-2/6-arrays/7-appending-removed-values.md
+          - 修正索引越界錯誤: swift-learning-2/6-arrays/8-fixing-array-out-of-bounds-errors.md
+          - 產生地形: swift-learning-2/6-arrays/9-generate-a-landscape.md
+          - 隨機化的陸地: swift-learning-2/6-arrays/10-randomized-lands.md
+          - 另一種建立陣列的方法: swift-learning-2/6-arrays/11-another-way-to-create-an-array.md
+          - 陣列的藝術: swift-learning-2/6-arrays/12-the-art-of-the-array.md
+          - 創造世界: swift-learning-2/6-arrays/13-world-creation.md
 
 theme:
   name: material
