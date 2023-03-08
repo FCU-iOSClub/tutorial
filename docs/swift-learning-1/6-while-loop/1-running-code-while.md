@@ -16,9 +16,22 @@ TODO
 
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
-```swift linenums="1"
-TODO()
-```
+<!-- prettier-ignore-start -->
+=== "解答 1"
+    ```swift linenums="1"
+    while isOnClosedSwitch {
+        toggleSwitch()
+        moveForward()
+    }
+    ```
+=== "解答 2"
+    ```swift linenums="1"
+    while !isOnOpenSwitch {
+        toggleSwitch()
+        moveForward()
+    }
+    ```
+<!-- prettier-ignore-end -->
 
 ## 後記
 

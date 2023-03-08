@@ -17,7 +17,23 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+func navigateAroundWall() {
+    if isBlockedRight {
+        moveForward()
+    } else {
+        turnRight()
+        moveForward()
+    }
+}
+while !isOnClosedSwitch {
+    navigateAroundWall()
+    if isOnGem {
+        collectGem()
+        turnLeft()
+        turnLeft()
+    }
+}
+toggleSwitch() 
 ```
 
 ## 後記

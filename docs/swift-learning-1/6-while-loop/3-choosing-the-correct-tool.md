@@ -17,7 +17,16 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+func turnAndCollectGem() {
+    moveForward()
+    turnLeft()
+    moveForward()
+    collectGem()
+    turnRight()
+}
+while !isBlocked {
+    turnAndCollectGem()
+}
 ```
 
 ## 後記

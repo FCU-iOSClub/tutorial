@@ -17,7 +17,28 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+while !isOnOpenSwitch {
+    moveForward()
+    if isOnGem {
+        collectGem()
+        turnRight()
+        moveForward()
+        collectGem()
+    } else if isOnClosedSwitch {
+        toggleSwitch()
+        turnLeft()
+        moveForward()
+        toggleSwitch()
+    }
+    while !isBlocked {
+        moveForward()
+    }
+    if !isBlockedRight {
+        turnRight()
+    } else {
+        turnLeft()
+    }
+}
 ```
 
 ## 後記

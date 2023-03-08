@@ -16,9 +16,54 @@ TODO
 
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
-```swift linenums="1"
-TODO()
-```
+<!-- prettier-ignore-start -->
+=== "基礎解答"
+    ```swift linenums="1"
+    func solveColumn() {
+        while !isBlocked {
+            if isOnClosedSwitch {
+                toggleSwitch()
+            } else if isOnGem {
+                collectGem()
+            }
+            moveForward()
+        }
+    }
+    solveColumn()
+    turnRight()
+    moveForward()
+    turnRight()
+    solveColumn()
+    turnLeft()
+    moveForward()
+    turnLeft()
+    solveColumn()
+    ```
+=== "進階解答"
+    ```swift linenums="1"
+    func solveColumn() {
+        while !isBlocked {
+            if isOnClosedSwitch {
+                toggleSwitch()
+            } else if isOnGem {
+                collectGem()
+            }
+            moveForward()
+        }
+    }
+    func solveAndRightTurn() {
+        solveColumn()
+        turnRight()
+    }
+    solveAndRightTurn()
+    moveForward()
+    solveAndRightTurn()
+    turnLeft()
+    moveForward()
+    turnLeft()
+    solveColumn()
+    ```
+<!-- prettier-ignore-end -->
 
 ## 後記
 
