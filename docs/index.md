@@ -30,4 +30,4 @@
 
 總之，「學習程式設計 1」是一本非常適合初學者的教材，通過控制虛擬角色 Byte 來學習程式設計基礎概念，並且透過 Swift Playgrounds App 的互動式介面，讓學習變得更加生動有趣。
 
-[前往：開始學習程式設計](/swift-learning){ .md-button }
+[前往：開始學習程式設計](swift-learning-1){ .md-button }
