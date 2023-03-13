@@ -17,7 +17,10 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+world.place(Gem(), atColumn: 2, row: 3)
+world.place(Switch(), atColumn: 2, row: 4)
+world.removeItems(atColumn: 2, row: 3)
+world.removeItems(atColumn: 3, row: 4)
 ```
 
 ## 後記

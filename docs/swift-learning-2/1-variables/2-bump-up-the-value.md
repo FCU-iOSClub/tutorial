@@ -16,9 +16,36 @@ TODO
 
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
-```swift linenums="1"
-TODO()
-```
+<!-- prettier-ignore-start -->
+=== "基礎解答"
+    ```swift linenums="1"
+    var gemCounter = 0
+    moveForward()
+    collectGem()
+    gemCounter = 1
+    moveForward()
+    collectGem()
+    gemCounter = 2
+    moveForward()
+    collectGem()
+    gemCounter = 3
+    moveForward()
+    collectGem()
+    gemCounter = 4
+    moveForward()
+    collectGem()
+    gemCounter = 5
+    ```
+=== "進階解答"
+    ```swift linenums="1"
+    var gemCounter = 0
+    while gemCounter <5 {
+        moveForward()
+        collectGem()
+        gemCounter += 1
+    }
+    ```
+<!-- prettier-ignore-end -->
 
 ## 後記
 

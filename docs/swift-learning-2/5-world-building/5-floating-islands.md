@@ -17,7 +17,21 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+let character = Character()
+world.place(character, facing: south, atColumn: 1, row: 7)
+func completeIsland() {
+    character.toggleSwitch()
+    character.jump()
+    character.collectGem()
+    character.turnLeft()
+    character.jump()
+    character.toggleSwitch()
+}
+completeIsland()
+world.place(character, facing: north, atColumn: 6, row: 3)
+completeIsland()
+world.place(character, facing: east, atColumn: 1, row: 1)
+completeIsland()
 ```
 
 ## 後記

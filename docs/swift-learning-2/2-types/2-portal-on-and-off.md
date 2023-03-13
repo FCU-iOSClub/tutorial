@@ -17,7 +17,20 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+greenPortal.isActive = false
+func moveThree() {
+    moveForward()
+    moveForward()
+    moveForward()
+}
+for i in 1...3 {
+    moveThree()
+    turnRight()
+    moveThree()
+    toggleSwitch()
+    turnLeft()
+    turnLeft()
+}
 ```
 
 ## 後記

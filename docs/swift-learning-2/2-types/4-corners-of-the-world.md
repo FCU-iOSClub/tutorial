@@ -17,7 +17,59 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+func turnAround() {
+    turnLeft()
+    turnLeft()
+}
+func checkSquare() {
+    if isOnGem {
+        collectGem()
+    } else if isOnClosedSwitch {
+        toggleSwitch()
+    }
+}
+func collectOrToggle() {
+    moveForward()
+    checkSquare()
+    turnAround()
+}
+func collectOrToggleThenTurnRight() {
+    collectOrToggle()
+    moveForward()
+    turnRight()
+}
+func collectOrToggleThenTurnLeft() {
+    collectOrToggle()
+    moveForward()
+    turnLeft()
+}
+turnLeft()
+moveForward()
+moveForward()
+greenPortal.isActive = false
+for i in 1...3 {
+    collectOrToggleThenTurnRight()
+}
+collectOrToggle()
+greenPortal.isActive = true
+moveForward()
+greenPortal.isActive = false
+collectOrToggleThenTurnLeft()
+collectOrToggleThenTurnLeft()
+moveForward()
+moveForward()
+orangePortal.isActive = false
+moveForward()
+for i in 1...3 {
+    collectOrToggleThenTurnRight()
+}
+collectOrToggle()
+orangePortal.isActive = true
+moveForward()
+orangePortal.isActive = false
+turnLeft()
+collectOrToggleThenTurnRight()
+collectOrToggle()
 ```
 
 ## 後記

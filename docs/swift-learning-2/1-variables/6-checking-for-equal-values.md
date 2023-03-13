@@ -17,7 +17,18 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+let switchCounter = numberOfSwitches
+var gemCounter = 0
+while gemCounter < switchCounter {
+    if isOnGem {
+        collectGem()
+        gemCounter = gemCounter + 1
+    }
+    if isBlocked {
+        turnRight()
+    }
+    moveForward()
+}
 ```
 
 ## 後記
