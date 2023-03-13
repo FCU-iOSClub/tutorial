@@ -17,7 +17,8 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+var rows = [0,1,2,3,4,5]
+placeCharacters(at: rows)
 ```
 
 ## 後記

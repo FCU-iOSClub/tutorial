@@ -17,7 +17,18 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+let allCoordinates = world.allPossibleCoordinates
+var blockSet: [Coordinate] = []
+for coordinate in allCoordinates {
+    if coordinate.column > 5 || coordinate.row < 4 {
+        blockSet.append(coordinate)
+    }
+}
+for coordinate in blockSet {
+    for i in 1 … 6 {
+        world.place(Block(), at: coordinate)
+    }
+}
 ```
 
 ## 後記

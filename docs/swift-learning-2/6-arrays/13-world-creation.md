@@ -17,7 +17,15 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+for coordinate in world.row(7) {
+    world.place(Character(name: .blu), at: coordinate)
+}
+for coordinate in world.row(5) {
+    world.place(Character(name: .byte), at: coordinate)
+}
+for coordinate in world.row(3) {
+    world.place(Character(name: .hopper), at: coordinate)
+}
 ```
 
 ## 後記

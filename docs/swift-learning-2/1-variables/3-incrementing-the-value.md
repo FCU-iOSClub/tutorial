@@ -17,7 +17,17 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+var gemCounter = 0
+while !isBlocked {
+    while !isBlocked {
+        if isOnGem {
+            collectGem()
+            gemCounter = gemCounter + 1
+        }
+        moveForward()
+    }
+    turnRight()
+}
 ```
 
 ## 後記

@@ -17,7 +17,25 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+let expert = Expert()
+world.place(
+    expert, facing: .south,
+    atColumn: 1, row: 8)
+func collectGemsInLine() {
+    while !expert.isBlocked {
+        if expert.isOnGem {
+            expert.collectGem()
+        }
+        expert.moveForward()
+    }
+}
+collectGemsInLine()
+expert.turnLockDown()
+expert.turnLeft()
+collectGemsInLine()
+expert.turnLockUp()
+expert.turnRight()
+collectGemsInLine()
 ```
 
 ## 後記

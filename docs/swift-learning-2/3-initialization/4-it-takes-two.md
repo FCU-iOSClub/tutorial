@@ -17,7 +17,34 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+let expert = Expert()
+let character = Character()
+func turnCorner() {
+    expert.moveForward()
+    expert.moveForward()
+    expert.turnRight()
+    expert.moveForward()
+    expert.moveForward()
+}
+expert.turnLeft()
+expert.moveForward()
+turnCorner()
+expert.turnLeft()
+expert.turnLockDown()
+expert.turnLockDown()
+character.moveForward()
+character.moveForward()
+character.collectGem()
+expert.turnRight()
+turnCorner()
+expert.moveForward()
+expert.moveForward()
+turnCorner()
+expert.turnLeft()
+expert.turnLockUp()
+character.moveForward()
+character.moveForward()
+character.toggleSwitch()
 ```
 
 ## 後記

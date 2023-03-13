@@ -17,7 +17,29 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+let totalGems = randomNumberOfGems
+var gemCounter = 0
+bluePortal.isActive = false
+pinkPortal.isActive = false
+while gemCounter < totalGems {
+    if isOnGem {
+        collectGem()
+        gemCounter = gemCounter + 1
+    }
+    moveForward()
+    if isBlocked {
+        turnLeft()
+        turnLeft()
+        if bluePortal.isActive == true {
+            bluePortal.isActive = false
+            pinkPortal.isActive = false
+        } else if bluePortal.isActive == false {
+            bluePortal.isActive = true
+            pinkPortal.isActive = true
+        }
+    }
+}
+
 ```
 
 ## 後記

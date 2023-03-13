@@ -17,7 +17,32 @@ TODO
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-TODO()
+func moveCollect() {
+    moveForward()
+    collectGem()
+}
+func turnAround() {
+    turnLeft()
+    turnLeft()
+}
+moveForward()
+moveCollect()
+turnAround()
+bluePortal.isActive = false
+moveForward()
+moveCollect()
+turnAround()
+bluePortal.isActive = true
+pinkPortal.isActive = false
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+turnAround()
+pinkPortal.isActive = true
+moveForward()
+turnAround()
+moveCollect()
 ```
 
 ## 後記
