@@ -1,10 +1,10 @@
 # TODO
 
-目標：使用OR 運算子，在兩個條件裡有一個成立時，調整角色的路線。
+目標：使用 OR 運算子，在兩個條件裡有一個成立時，調整角色的路線。
 
 ## 簡介
 
-最後一個邏輯運算子是邏輯 OR 運算子(||)，它結合兩個布林值條件，且在至少一個為 true 時執行程式碼。例如，在下方的程式碼中，`isOnGem` 或 `isBlockedLeft`
+最後一個邏輯運算子是邏輯 OR 運算子 (||)，它結合兩個布林值條件，且在至少一個為 true 時執行程式碼。例如，在下方的程式碼中，`isOnGem` 或 `isBlockedLeft`
 必須為 `true` 才能執行 `moveForward( )`。
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/d00ee4bb-26d2-48bb-0194-47dfaa9eec00/public)
