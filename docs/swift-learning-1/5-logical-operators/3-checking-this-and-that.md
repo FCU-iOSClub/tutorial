@@ -4,7 +4,7 @@
 
 ## 簡介
 
-邏輯 AND 運算子(&&)會結合兩個布林值條件，並且只有在兩者皆為真時才會執行程式碼。例如：在下列程式碼中，`isBlocked` 和 `isOnclosedswitch` 都必須為真。
+邏輯 AND 運算子 (&&) 會結合兩個布林值條件，並且只有在兩者皆為真時才會執行程式碼。例如：在下列程式碼中，`isBlocked` 和 `isOnclosedswitch` 都必須為真。
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/e4350837-06e9-4954-9264-864d91e95b00/public)
 
