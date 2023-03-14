@@ -5,7 +5,7 @@
 ## 簡介
 
 在這項挑戰中，你需要使用傳送門，走到關卡世界中的另一個位置，也要穿過傳送門來到達一些位置。
-在適當的時機打開和關閉傳送門，藉此來練習設定屬性。在這個關卡中，有一種稱為 purplePorta1 的實例，你可以使用點記法來修改它。
+在適當的時機打開和關閉傳送門，藉此來練習設定屬性。在這個關卡中，有一種稱為 purplePortal 的實例，你可以使用點記法來修改它。
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/cdc83a12-8594-4832-03a6-7573121fee00/public)
 
@@ -18,7 +18,7 @@
 --8<-- "docs/snippets/danger-do-it-yourself.txt"
 
 ```swift linenums="1"
-greenPortal.isActive = false
+purplePortal.isActive = false
 func moveThree() {
     moveForward()
     moveForward()
