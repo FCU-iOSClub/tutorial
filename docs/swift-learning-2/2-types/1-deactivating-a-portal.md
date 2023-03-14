@@ -11,7 +11,7 @@
 
 ## 講解
 
-1.使用點記法將 greenPortal 實例的 isActive 屬性設為false •
+1.使用點記法將 greenPortal 實例的 isActive 屬性設為false。
 2.打開每個開關。
 
 ## 解答
@@ -37,4 +37,4 @@ for i in 1...3 {
 
 ## 後記
 
-TODO
+你可以使用點記法來修改特定實例的屬性。首先，參照實例名稱（例如 greenPortal），然後加上句點（.）和要修改的屬性。準備好繼續了嗎？
