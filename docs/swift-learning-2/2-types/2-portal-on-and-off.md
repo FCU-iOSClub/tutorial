@@ -21,19 +21,29 @@ purplePortal.isActive = true
 
 ```swift linenums="1"
 purplePortal.isActive = false
-func moveThree() {
+var numOfGems = 0
+var numOfSwitches = 0
+while true {
     moveForward()
-    moveForward()
-    moveForward()
+    if isBlocked {
+        turnRight()
+        turnRight()
+        purplePortal.isActive = true
+    }
+    if isOnGem {
+        collectGem()
+        numOfGems += 1
+    }
+    if isOnClosedSwitch {
+        toggleSwitch()
+        numOfSwitches += 1
+        purplePortal.isActive = false
+    }
+    if numOfGems == 7 {
+        break
+    }
 }
-for i in 1...3 {
-    moveThree()
-    turnRight()
-    moveThree()
-    toggleSwitch()
-    turnLeft()
-    turnLeft()
-}
+
 ```
 
 ## 後記
