@@ -11,8 +11,8 @@
 
 ## 講解
 
-1.使用點記法將 greenPortal 實例的 isActive 屬性設為false。
-2.打開每個開關。
+1. 使用點記法將 greenPortal 實例的 isActive 屬性設為false。
+2. 打開每個開關。
 
 ## 解答
 
