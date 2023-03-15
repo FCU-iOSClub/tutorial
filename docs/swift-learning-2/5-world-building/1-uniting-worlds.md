@@ -9,8 +9,8 @@
 這個關卡中的開關位於無法到達的區域，因此你需要加入磚塊，將這關的兩個部分連接起來。
 
 1. 首先，建立一個 Block 類型的實例。
-2. 接著，使用點記法存取 World 實例並呼叫 place 方法。
-3. 將引數傅入 place 方法中。在item 參數中使用 Block 實例，並將一組座標用於 atColumn 和 row 參數。
+2. 接著，使用點記法存取 world 實例並呼叫 place 方法。
+3. 將引數傳入 place 方法中。在 item 參數中使用 Block 實例，並將一組座標用於 atColumn 和 row 參數。
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/c8cbcf50-1823-49e4-cb43-8b6a3ba32200/public)
 
