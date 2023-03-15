@@ -13,6 +13,7 @@
 請記住，你可以將 .north 、 .south 、 .east 或 .west 傳入 facing 參數來選擇方向。
 
 放置階梯
+
 將面向北方的階梯放置在座標（2，3） 處的方式如下：
 
 ```swift linenums="1"
