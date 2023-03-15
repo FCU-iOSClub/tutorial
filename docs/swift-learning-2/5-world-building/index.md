@@ -38,5 +38,3 @@ place 方法有三個參數：
 ```swift linenums="1"
     world.removeItems(gem, atColumn: 5, row: 1)
 ```
-
-
