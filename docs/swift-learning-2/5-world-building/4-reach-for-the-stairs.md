@@ -10,7 +10,7 @@
 
 ## 講解
 
-請記住，你可以將 .north 、 .south 、 .east 或 .west 傳入 facing 參數來選擇方向。
+請記住，你可以將 `.north`、`.south`、`.east` 或 `.west`傳入 facing 參數來選擇方向。
 
 放置階梯
 
