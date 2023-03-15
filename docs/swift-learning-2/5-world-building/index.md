@@ -4,7 +4,7 @@
 
 ## 範例：初始化寶石
 
-在一張 Playgrounds 中，我們常需要 moveForward 去 collectGem 或 toggleSwitch ，但如果有一張地圖的並沒有寶石在地上但又要我們去撿的話該怎麼辦？
+在每一張地圖中，我們常需要 moveForward 去 collectGem 或 toggleSwitch ，但如果有一張地圖的並沒有寶石在地上但又要我們去撿的話該怎麼辦？
 
 其實我們只要先初始化出我們的寶石就行了。
 
@@ -19,14 +19,14 @@ place 方法有三個參數：
 
 .item 採用了 Item 類型的輸入（如磚塊、寶石或階梯）
 
-.atColumn 和.row 採用了Int 值，指示項目放置的位置
+.atColumn 和 row 採用了 Int 值，指示項目放置的位置
 
 ```swift linenums="1"
     world.place(item: Item, atColumn: Int, row: Int)
 ```
 
 
-呼叫 place 方法時，會傳入gem 以及要放置gem 的位置座標，例如：
+呼叫 place 方法時，會傳入 gem 以及要放置 gem 的位置座標，例如：
 
 ```swift linenums="1"
     world.place(gem, atColumn: 5, row: 1)
