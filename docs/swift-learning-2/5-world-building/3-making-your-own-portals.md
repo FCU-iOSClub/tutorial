@@ -17,7 +17,7 @@
 
 world.place(newPortal, atStartColumn: 1, startRow: 1, atEndColumn: 2, endRow: 2)
 ```
-1. 呼叫 place 方法來放置傳送門，此方法包括參數 atstartcolumn 、 startRow 、 atEndColumn 和 endRow 。
+1. 呼叫 place 方法來放置傳送門，此方法包括參數 atStartColumn 、 startRow 、 atEndColumn 和 endRow 。
 2. 使用傳送門從一座島嶼跳到另一座島嶼，並收集所有寶石。
 
 ## 解答
