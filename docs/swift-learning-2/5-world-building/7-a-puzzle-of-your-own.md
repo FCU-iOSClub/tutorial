@@ -14,7 +14,7 @@
 
 ```swift linenums="1"
 world.place(Gem(), atColumn: 2, row: 3)
-world.place(Switch(), atcolumn : 3, row: 4)
+world.place(Switch(), atColumn: 3, row: 4)
 ```
 
 快捷鍵列中包含可在 world 實例上使用的方法。使用這些方法來建立你自己的世界：加入自己的角色、專家、寶石、傳送門等項目！請發揮你的創意，並且玩得開心！
