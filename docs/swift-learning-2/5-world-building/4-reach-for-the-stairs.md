@@ -10,21 +10,21 @@
 
 ## 講解
 
-請記住，你可以將 .north、.south、.east 或.west 傳入 facing 參數來選擇方向。
+請記住，你可以將 .north 、 .south 、 .east 或 .west 傳入 facing 參數來選擇方向。
 
 放置階梯
 將面向北方的階梯放置在座標（2，3） 處的方式如下：
 
 ```swift linenums="1"
-let newstair = Stair()
-world.place(newStair, facing: north,atColumn: 2, row: 3)
+let newStair = Stair()
+world.place(newStair, facing: north, atColumn: 2, row: 3)
 ```
-但是，還有一個捷徑可以更快速地放置階梯 ！與其單獨初始化階梯實例，不如同時初始化和放置實例。
+但是，還有一個捷徑可以更快速地放置階梯！與其單獨初始化階梯實例，不如同時初始化和放置實例。
 
 這行程式碼可初始化並放置末命名的 Stair 類型實例：
 
 ```swift linenums="1"
-world.place(Stair(), facing:north,atColumn: 1, row: 1)
+world.place(Stair(), facing: north, atColumn: 1, row: 1)
 ```
 
 ## 解答
