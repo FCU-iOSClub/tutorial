@@ -10,8 +10,7 @@
 
 ## 講解
 
-加入寶石和開關
-就像加入磚塊一樣，你可在 world 上使用 place 方法來放置寶石和開關。
+加入寶石和開關就像加入磚塊一樣，你可在 world 上使用 place 方法來放置寶石和開關。
 
 ```swift linenums="1"
 world.place(Gem(), atColumn: 2, row: 3)
