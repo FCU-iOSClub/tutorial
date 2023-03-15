@@ -17,11 +17,12 @@
 ## 講解
 
 使用不同類型的實例
+
 首先要定義兩個人物，一個專家，一個普通角色
 
->`let expert = Expert()`
+> `let expert = Expert()`
 >
->`let character = Character()`
+> `let character = Character()`
 
 這裡需要兩個人物互相配合，開始的時候，專家先升起平台，character 收集完第一顆寶石後，走到傳送門，然後，專家再降下平台，character 去收集第二顆寶石。
 
