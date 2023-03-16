@@ -8,9 +8,10 @@
 
 在編寫程式碼時，請試著在腦海中思考不同的解決方法並找出最有效率的一種。編寫有效率的程式碼可讓程式更快速執行，進而讓使用者得到愉快的體驗並增進電池的續航力。
 
-請使用 greenPortal 和orangePortal 來存取傳送門。
+請使用 `greenPortal` 和 `orangePortal` 來存取傳送門。
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/f310438a-4cc1-4092-27ad-2e52f5385700/public)
+<!-- TODO:圖放錯ㄌ -->
 
 ## 講解
 
