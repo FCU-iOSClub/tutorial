@@ -12,7 +12,6 @@
 
 首先，初始化一個專家實例。引導你的專家四處走動，收集寶石，並且轉動鎖頭來顯示通往中斷平台的路徑。
 
-
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/0a2006a7-2964-4b91-c5b1-e0595cebc900/public)
 
 ## 講解
