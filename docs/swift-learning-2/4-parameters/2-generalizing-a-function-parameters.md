@@ -1,20 +1,20 @@
 # TODO
 
-目標:編寫一個函數，以指定的次數向上或向下轉動鎖頭。
+目標：編寫一個函數，以指定的次數向上或向下轉動鎖頭。
 
 ## 簡介
 
 先前你曾使用**參數**來定義 `move` 函數，其中包含 `distance` 輸入。在這個關卡中，你將定義一個 `turnLock` 函數，使用參數 `up` 和 `numberOfTimes` 來決定專家應該轉動鎖頭的方向和次數。
+
 > `解釋 turnLock 參數`
-> 
+>
 > `up` 使用 Bool (**布林值**) 類型的輸入，指示向上 (`true`) 或向下 (`false`) 轉動鎖頭。
-> 
+>
 > `numberofTimes` 使用 **Int** 類型的輸入，指示轉動鎖頭的次數。
 
 1. 使用兩個參數 `up` `和numberofTimes` 來定義函數。
 2. 檢查 up 的值來決定應該呼叫 `turnLockUp()` 還是 `turnLockDown()`。
 3. 使用numberOfTimes 值來決定執行 `turnLockUp()` 或 `turnLockDown()` 的次數。
-
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/a02eba78-a22e-4c6f-45ce-e761e64b6f00/public)
 
