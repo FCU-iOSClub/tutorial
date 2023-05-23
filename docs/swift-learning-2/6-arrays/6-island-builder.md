@@ -1,10 +1,10 @@
-# TODO
+# 島嶼建構者
 
-TODO:TODO
+挑戰：建構一座四面環海的島。
 
 ## 簡介
 
-TODO
+厭倦了內陸世界嗎？
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/b1d5dc48-cc83-4128-00fc-de600dc24f00/public)
 
