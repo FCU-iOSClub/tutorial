@@ -18,7 +18,7 @@
 >
 >`world.place(Water(), at: coordinate)`
 
-將座標附加到每個陣列後，在島嶼陣列的每個座標上放置水。祝你好運！
+將座標附加到每個陣列後，在島嶼陣列的每個座標上放置磚塊，並在海洋陣列的每個座標上放置水。祝你好運！
 
 
 ![img](https://imagedelivery.net/cdkaXPuFls5qlrh3GM4hfA/b1d5dc48-cc83-4128-00fc-de600dc24f00/public)
