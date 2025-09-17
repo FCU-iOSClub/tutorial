@@ -144,7 +144,7 @@ theme:
   palette:
 
    - scheme: default
-     primary: cyan
+     primary: light blue
      toggle:
        icon: material/brightness-7
        name: Switch to dark mode
@@ -156,7 +156,7 @@ theme:
   icon:
     logo: material/apple-ios
 
-copyright: Copyright &copy; 2016 - 2023 FengChia University iOS Club
+copyright: Copyright &copy; 2016 - 2025 Feng Chia University iOS Club
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -181,3 +181,5 @@ extra:
   social:
     - icon: material/web
       link: https://iosclub.tw
+    - icon: material/mail
+      link: mailto:iosclub@mail.iosclub.tw
