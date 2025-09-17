@@ -1,4 +1,4 @@
-# iOS Club Tutoria Website
+# iOS Club Tutorial Website
 
 ## Quick start
 
@@ -8,7 +8,7 @@ Install script
 pip install mkdocs-material
 ```
 
-Run script
+Run script (Preview website)
 
 ```sh   
 mkdocs serve
