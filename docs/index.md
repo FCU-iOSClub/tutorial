@@ -22,12 +22,12 @@
 
 [FCU iOS Club 社團官網](https://iosclub.tw){ .md-button }
 
-## Swift Playgrounds
+## Swift Playground
 
-為了讓學習更加生動有趣，我們使用 Apple Swift Playgrounds 進行程式設計學習。Swift Playgrounds 是一款由 Apple 公司開發的 App，專為初學者設計，可以在 iPad 和 Mac 上運行。它提供了一個友好的界面，以及豐富的編程挑戰和互動式學習內容，可以幫助學習者更輕鬆地學習 Swift 編程。
+為了讓學習更加生動有趣，我們使用 Apple Swift Playground 進行程式設計學習。Swift Playground 是一款由 Apple 公司開發的 App，專為初學者設計，可以在 iPad 和 Mac 上運行。它提供了一個友好的界面，以及豐富的編程挑戰和互動式學習內容，可以幫助學習者更輕鬆地學習 Swift 編程。
 
-在我們的課程中，我們將使用 「學習程式設計 1」 和 「學習程式設計 2」 兩本書籍作為教材。「學習程式設計 1」 包含了 Swift 編程的基礎知識，以及使用 Swift Playgrounds 的相關操作；「學習程式設計 2」 則進一步介紹了更高級的 Swift 開發技巧，以及 iOS Swift UI 的開發方法，內容豐富，易於理解，是您學習 Swift 編程和 iOS 應用程式開發的最佳選擇。
+在我們的課程中，我們將使用 「學習程式設計 1」 和 「學習程式設計 2」 兩本書籍作為教材。「學習程式設計 1」 包含了 Swift 編程的基礎知識，以及使用 Swift Playground 的相關操作；「學習程式設計 2」 則進一步介紹了更高級的 Swift 開發技巧，以及 iOS Swift UI 的開發方法，內容豐富，易於理解，是您學習 Swift 編程和 iOS 應用程式開發的最佳選擇。
 
-總之，「學習程式設計 1」是一本非常適合初學者的教材，通過控制虛擬角色 Byte 來學習程式設計基礎概念，並且透過 Swift Playgrounds App 的互動式介面，讓學習變得更加生動有趣。
+總之，「學習程式設計 1」是一本非常適合初學者的教材，通過控制虛擬角色 Byte 來學習程式設計基礎概念，並且透過 Swift Playground App 的互動式介面，讓學習變得更加生動有趣。
 
-[前往：開始學習程式設計](swift-learning-1){ .md-button }
+[前往：開始學習程式設計](swift-learning-1/index.md){ .md-button }
