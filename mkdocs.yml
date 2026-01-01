@@ -157,7 +157,7 @@ theme:
   icon:
     logo: material/apple-ios
 
-copyright: Copyright &copy; 2016 - 2025 Feng Chia University iOS Club
+copyright: Copyright &copy; 2016 - 2026 Feng Chia University iOS Club
 
 markdown_extensions:
   - pymdownx.highlight:
